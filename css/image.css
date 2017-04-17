@@ -1,0 +1,16 @@
+img {
+  width: 40%;
+}
+
+ul.images {
+  margin:0 0.5%;
+  padding:0 0;
+  white-space: nowrap;
+}
+
+ul.images li {
+  display:inline;
+  width:500px;
+  margin: 5px;
+  height:500px;
+}
