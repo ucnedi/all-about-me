@@ -1,16 +1,49 @@
-img {
-  width: 40%;
+img.photos {
+  width: 50%;
 }
 
+img.tall {
+    width: 22.5%;
+}
+
+img.graphics {
+    width: 30%;
+}
+
+img.me {
+    float: left;
+    top:5%;
+    width: 70%;
+    margin:5px;
+}
 ul.images {
-  margin:0 0.5%;
-  padding:0 0;
-  white-space: nowrap;
+    margin: 0;
+    padding: 0 0;
+    white-space: nowrap;
+    top: 50%;
+    position: absolute;
+    margin-top: -309px;
 }
 
 ul.images li {
   display:inline;
   width:500px;
-  margin: 5px;
+  margin: 10px;
   height:500px;
+}
+
+ul.images li img {
+    line-height: 50%;
+}
+
+div.bio {
+    width: 30%;
+    position: relative;
+}
+
+div.bio p {
+    font-size: 16px;
+    margin: 5px;
+    padding: 5px;
+    text-indent: 20px;
 }
