@@ -84,7 +84,7 @@
 		<div class="row">
 			<div class="col-md-12">
 				<div id="fh5co-aside-inner">
-				  <div class="row" id="fh5co-bio">
+				    <div class="row" id="fh5co-bio">
 						<div class="col-md-12">
 							<h2>About Me</h2>
 						</div>
@@ -101,12 +101,42 @@
                             <p></p>
                         </div>
 						<div class="col-md-12 fh5co-social">
-							<a href="#"><i class="icon-envelope"></i></a>
-							<a href="https://www.facebook.com/nnediz" target="_blank"><i class="icon-facebook"></i></a>
+							<a href="#" data-toggle="modal" data-target="#myModal"><i class="icon-envelope"></i></a>							
+                            <a href="https://www.facebook.com/nnediz" target="_blank"><i class="icon-facebook"></i></a>
 							<a href="https://www.linkedin.com/in/nnediugo/" target="_blank"><i class="icon-linkedin"></i></a>
 							<a href="https://www.instagram.com/ucnedi/" target="_blank"><i class="icon-instagram"></i></a>
 							<a href="http://nnediz.tumblr.com/" target="_blank"><i class="icon-tumblr"></i></a>
 						</div>
+                        <div class="modal fade" id="myModal" role="dialog">
+                            <div class="modal-dialog">
+
+                              <!-- Modal content-->
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                  <h4 class="modal-title">Contact Me</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <form action="https://formspree.io/ucnedi@gmail.com" method="post">
+                                        <div class="form-group">
+                                            <label for="fullName">Full Name</label>
+                                            <input for="fullName" type="text" name="name" class="form-control" placeholder="Full Name" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="emailInput">Email address</label>
+                                            <input type="email" class="form-control" name="_replyto" id="emailInput" aria-describedby="emailHelp" placeholder="Enter email" required>
+                                        </div>
+                                      <div class="form-group">
+                                        <label for="message">Message</label>
+                                        <textarea class="form-control" id="message" name="messages" rows="3" placeholder="Insert message here" required></textarea>
+                                      </div>
+                                      <button type="submit" value="Send" class="btn btn-primary">Send</button>
+                                    </form>
+                                </div>
+                              </div>
+
+                            </div>
+                        </div>
 						<div class="col-md-12" style="margin-top: 40px;">
 							<p>&copy; 2016 Free HTML5 Template. All Rights Reserved.</p>
 						</div>
